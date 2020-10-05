@@ -2,15 +2,141 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>IFSC 1310 | Mya Souvanna</title>
-  <meta name="description" content="Assignments for Web Tech" />
-  <meta name="author" content="Mya Souvanna" />
-
+  <meta charset="utf-8"> <!--Purpose: is to allow the web browswer to know what type of character set to use  -->
+  <title>IFSC 1310 | Mya Souvanna</title> <!--Purpose: Defines the document title. Also is shown in web browser's title bar nd page tab-->
+  <meta name="description" content="Prototype HTML Document" /> <!--Purpose: Provides description about the webpage -->
+  <meta name="author" content="Mya Souvanna" /> <!--Purpose: Lists the author of HTML doucment -->
+  
+  <!--Style is used to add color to the document-->
+  <style>
+    h1{color:blue;} 
+    h2{color:red;}
+    h3{color:red;}
+    h4{color:orange;}
+  </style>
 </head>
 
-<body>
-  <h1>Mya Souvanna</h1>
+<body style="background-color:ghostwhite;">
+    <div id = "container">
+      <header class="primary">
+        <h1 id="home">MONKEYS IN SPACE!</h1>
+      <section id="content">
+        <h2>Who knew that monkeys could be in space?</h2>
+      
+       <figure> 
+        <img src="https://thomaswallace.net/wp-content/uploads/2018/02/gordo.jpeg" alt="Picture of Gordo in Spacesuit" style="float:right;width:150px;height:150px;"/>
+       <figcaption></figcaption>
+       </figure>
+       
+        <p id="monkey">Gordo was one of the first monkeys to make it into space as part of NASA's space program. Eight monkeys had flown on NASA missions before him, 
+        five of whom went by the name of Albert. <strong style="color:rebeccapurple;">Gordo's historic flight took place on December 13, 1958 when he took off from Cape Canaveral for 
+        a 15 minute flight into space.</strong> Even though he was weightless for over 8 minutes the on-board instruments indicated that Gordo enjoyed his 
+        journey into space. Scientists monitoring the flight were pleased to note that the <em style="color:pink;">only slight side effect</em> Gordo suffered from the entry into space 
+        was a modest slowing of his pulse. As I read this, I thought to myself 
+        <q>Wow that's cool how NASA used monkeys in space. However, it's sad that they all died.</q> <!--A quote from what I thought about this-->
+        
+        <hr />
+        <h4>Information About Other Primates That Went to Space!</h4>
+        <p style="color:dodgerblue">Names and Dates of Previous Monkeys before Gordo (from USA):</p>
+        <ol>
+          <li>Albert - June 11, 1948</li>
+          <li>Albert II - June 14, 1949</li>
+          <li>Albert III - September 16, 1949</li>
+          <li>Albert IV- December 8, 1949</li>
+          <li>Albert V- April 18, 1951</li>
+          <li>Yorick/Albert VI- April 18, 1951</li>
+          <li>Patricia and Mike - May 21, 1952</li>
+        </ol>
+        
+        <p style="color:dodgerblue">Some of the Types of Monkeys That Went into Space:</p>
+        <ul>
+          <li>Rhesus Macaque</li>
+          <li>Crab-Eating Macaque</li>
+          <li>Squirrel Monkey</li>
+          <li>Pig-Tailed Macaque</li>
+          <li>Chimpanzees</li>
+        </ul>
+        
+        
+        
+        <p style="color:dodgerblue">Some Space Terms (taken from spaceplace.nasa.gov):</p>
+        <dl>
+        
+          <dt>Asteroid</dt>
+            <dd>Rocks floating around in space.</dd>
+            <dd>Some are the size of a pick-up truck. Others are hundreds of miles across.</dd>
+          <dt>Black Hole</dt>
+            <dd>A place in space where matter and light cannot escape if they fall in.</dd>
+          <dt>Comet</dt>
+            <dd>An icy rock that lets off gas and dust, which may form tails when it is flying close to a sun.</dd>
+          <dt>Meteorite</dt>
+            <dd>A meteoroid that lands on the surface of a planet.</dd>
+          <dt>Satellite</dt>
+            <dd>An object that orbits another object.</dd>
+            <dd>Besides manmade satellites, the Earth's Moon is an example of a natrual satellite</dd>
+          <hr/>
+            
+            
+        <table border="2">
+        <caption><em><b>How Many Space Items Have Been Seen in Space?</b></em></caption>
+         <tr><th scope="col">Space Item</th> <th scope="col">Quantity</th> <th scope="col">Can ____ Be Seen From Earth?</th> <th scope="col">Biggest/Most Famous _____?</th> <th scope="col">Has A _____ Ever Hit Earth?</th> </tr>
+         <tr> <td>Asteroid</td>   <td>Over 822,000</td>    <td>Yes</td>     <td>1 Ceres</td>       <td>Yes</td>   
+         <tr> <td>Black Hole</td> <td>10 million - 1 billion (Estimated)</td>  <td>Yes Apparently</td>   <td>M87</td> <td>No</td>       
+         <tr> <td>Comet</td>      <td>6,619</td>    <td>Yes</td> <td>Halley's Comet</td> <td>Yes (Rarely)</td>
+         <tr> <td>Meteorite</td>  <td>25 Million</td>    <td>Yes</td> <td>Hoba</td>     <td>Yes</td>            
+         <tr> <td>Satellite</td>  <td>2,666</td>    <td>Yes</td>      <td>Ganymede</td>  <td>Yes</td>
+        </table>
+        </dl>
+      <hr/>
+      
+        <h3>The Mission</h3>
+        <p>The rocket carrying Gordo into space would take off from the Atlantic Missile Range at Cape Canaveral, travel further than any monkey 
+        had ever travelled before - over 1,500 miles - and reach a height of 310 miles (500 km) before returning to Earth and landing in the South
+        Atlantic, 1,302 nautical miles south of Cape Canaveral.</p>  
+        
+        <h4>Thoughts on Gordo's mission from a fellow astronaut</h4>
+        <blockquote>"We all heard the rumors that they want to send a monkey up first. Well, none of us wants to think that they're gonna send a monkey up to
+        do a man's work ... what they're trying to do to us is send a man up to do a monkey's work."
+        <cite>Deke Slayton, Mercury Seven Astronaut</cite></blockquote>
+
+
+        <h3>The Jupiter AM-13</h3>
+        <p>The Jupiter IRBM (Intermediate Range Ballistic Missile) was originally developed by the US Army as a long-range successor to its PGM-11 
+        Redstone missile, but was eventually taken over and deployed by the USAF for political reasons. It was also the only one of the United States' 
+        early stategic ballistic missiles with some mobility</p>
+        <p>Flight Date: December 13, 1958</p>
+        <p>Launch Time: 03.53 EST</p>
+
+        <h5>The Journey</h5>
+        Gordo wore a specially customised space suit custom made for a monkey about one foot tall. The space suit was fitted with instruments, including 
+        temperature meters and microphones which recorded his historic suborbital journey, considered one of the outstanding achievements of space research.
+        <p>Flight Time: 15 Minutes</p>
+        <p>Apogee: 310 Miles</p>
+      </section>
+      
+      <hr/>
+      <nav class = "primary">
+          <ul>
+            <li><a href="about.html" title="home">Home</a></li> 
+            <li><a href="#monkey" title="purpose">About</a></li>
+            <li><a href="https://ualr.edu/file.pdf" target="_blank" title="UALR">UALR</a></li> 
+            <li><a href="mailto:tswallace@ualr.edu" title="contact">Contact</a></li>
+          </ul>
+      </nav>
+      <hr/>
+      <p>References:</p>
+      <p>Remembering 'Gordo,'
+      BBC - Monkey Lost After Space Flight,
+      Gordo and Laika - Space Pioneers</p>
+      
+  <footer class="footer">
+    <h6>&copy; 2020
+      <p>Mya Souvanna <a href="mailto:myasouvanna@ualr.edu" title="contact">email me</a></p>
+      <p>The Famous Primates web site is a Web Standardistas production.</p>
+      <p>XHTML + CSS released under a Creative Commons Attribution 3.0 license.</p>
+      <p>Photography Copyright iStockphoto.</p> <a href="#top">Back to top</a></h6>
+    </footer> <!--footer-->
+     
+    </div> <!--Closing the container div-->
 </body>
 </html>
